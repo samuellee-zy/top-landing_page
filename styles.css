@@ -1,0 +1,171 @@
+/* styles.css */
+/* The .section class applies padding to the content within the section and sets margins on the left and right sides. */
+/* * {
+  border: 1px solid blue;
+} */
+
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding: 10px;
+  color: white;
+}
+
+.link {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.section {
+  padding: 0 100px;
+}
+
+.sub-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  padding: 0 50px 60px 50px;
+}
+
+.sub-section-item {
+  flex: 1;
+  height: 300px;
+}
+
+.sub-section-item > h2 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.sub-section-item > p {
+  font-size: 18px;
+  align-items: center;
+}
+
+.button {
+  background-color: #3882f6;
+}
+
+.section-2 > h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.sub-section-2,
+.sub-section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.squares {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 2px solid #3882f6;
+  margin: 0px 30px;
+}
+
+.squaresp {
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 0px 30px;
+}
+
+.sub-p {
+  display: block;
+  margin: 0 80px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.thor {
+  text-align: right;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  background-color: #3882f6;
+}
+
+.section-4 {
+  margin: 50px;
+}
+
+.footer {
+  margin: 0;
+}
+#img1 {
+  background-color: grey;
+}
+
+.button-two {
+  border-color: white;
+}
+
+#p-img1 {
+  text-align: center;
+}
+
+/* The #header-logo ID styles the specific element with the ID 'header-logo'. */
+#header-logo {
+  font-size: 24px; /* Set the font size of the header logo to 24px. */
+}
+
+/* The #header-link ID styles the specific element with the ID 'header-link'. */
+#header-link {
+  display: inline-block; /* Set the display property to inline-block for the element with ID 'header-link'. */
+}
+
+#section-1 {
+  background-color: #1f2937;
+}
+
+#section-2 {
+  background-color: white;
+}
+
+#section-3 {
+  background-color: #e5e7eb;
+  padding: 80px;
+}
+
+#section-4 {
+  background-color: white;
+}
+
+#section-5 {
+  background-color: #1f2937;
+}
+
+#copyright > p {
+  text-align: center;
+  color: white;
+}
+
+#box-left {
+  padding-right: 20px;
+}
